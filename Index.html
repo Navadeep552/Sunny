@@ -1,0 +1,44 @@
+    border-radius: var(--pcp-card-radius);
+    box-shadow: var(--pcp-card-shadow);
+    max-width: 400px;
+    width: 100%;
+    padding: 1.5rem;
+}
+
+.pcp-header {
+    margin-bottom: 1rem;
+}
+.pcp-title {
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+/* Status text line (e.g., 75% Complete) */
+.pcp-status {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 0.5rem;
+}
+.pcp-status-text {
+    font-size: 0.875rem;
+    color: #6b7280;
+}
+.pcp-status-percentage {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--progress-bar-color);
+}
+
+/* The progress bar */
+.pcp-progress-bar-container {
+    width: 100%;
+    height: 10px;
+    background-color: #e5e7eb;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+}
+.pcp-progress-bar-fill {
+    height: 100%;
